@@ -53,13 +53,14 @@ textarea:focus {
 .cards {
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 20px;
 }
 
 .card {
+    flex: 1 1 250px;
     border: 1px solid #cccccc;
     padding: 16px;
-    width: 250px;
+    background-color: white;
 }
 table {
     width: 100%;
