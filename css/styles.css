@@ -118,3 +118,45 @@ header img {
     display: block;
     margin-bottom: 10px;
 }
+@media (max-width: 720px) {
+
+    header,
+    main,
+    footer {
+        padding: 15px;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    nav a {
+        margin-right: 0;
+    }
+
+    .cards {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    input,
+    select,
+    textarea,
+    button {
+        width: 100%;
+    }
+
+    #about img {
+        width: 100%;
+        height: auto;
+    }
+}
